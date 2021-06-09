@@ -1,0 +1,384 @@
+body {
+    width: 100%;
+    background-color: white;
+    font-family: karla, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+a:webkit-any-link {
+    cursor: pointer;
+}
+* {
+    box-sizing: inherit;
+}
+.firstNav {
+    overflow: hidden;
+    background-color: #515050;
+}
+.firstNav a{
+    color: #dbdbdb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.firstNav a:hover{
+    background: #ddd;
+    color: black;
+}
+.firstSpan {
+    display: block;
+}
+.topnav{
+    margin-top: 40px;
+}
+.topnav ul {
+    overflow: hidden;
+    background-color: white;
+}
+.topnav ul li a {
+    color: inherit;
+    display: block;
+    padding: 14px 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 11px;
+    word-break: break-word;
+    letter-spacing: 0.8px;
+}
+.topnav ul li {
+    list-style: none;
+    float: left;
+}
+.topnav ul li.right {
+  float: right;  
+}
+.topnav li a:hover {
+    background-color: #515050;
+    color: white;
+}
+ul img {
+    border-style: none;
+    float: left;
+}
+.lastnav {
+    background-color: white;
+    margin-top: 40px;
+}
+.lastnav h1 {
+    font-family: "Avenir Next", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #292929;
+    text-align: center;
+    display: block;
+    letter-spacing: 0.4px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    font-size: 40px;
+}
+
+.section2 {
+    margin-top: 15px;
+}
+img.section2 {
+    opacity: 1;
+    background-color: white;
+    transition: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.section3 {
+    margin-top: 25px;
+}
+.section3-h1 a {
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+.section3div-h1 {
+    margin-top: 15px;
+}
+.section3-h1 {
+    font-family: karla, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    letter-spacing: 1.6;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+.img-rine {
+    opacity: 1;
+    background-color: white;
+    transition: opacity 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.section3img img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+.div-hr {
+    margin-top: 100px;
+}
+.section4 {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 4opx;
+    margin-top: 50px;
+}
+.img-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.img-wrapper {
+    width: 1100px;
+    text-align: center;
+}
+.img {
+    width: 90%;
+    height: 100%;
+    animation: 11s ease-out core infinite;
+}
+.img-overlay {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    bottom: 50px;
+    padding: 0 50px;
+    height: 100%;
+    color: #FBFCFC;
+    font-family: sans-serif;
+    background-color: rgba(29, 29, 29, 0.6);
+}
+@keyframes core {
+    0%{
+        transform: scale(1);
+    }
+    50%, 55%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.section5 {
+    margin: 50px;
+}
+.section5-h1 {
+    background-color: white;
+}
+.section5-h1 h1 {
+    font-family: "Avenir Next", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #292929;
+    text-transform: uppercase;
+    text-align: center;
+}
+.caro-div {
+    margin-top: 100px;
+}
+.section6 {
+    margin-top: 50px;
+}
+.section7 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.section7-span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.data {
+    font-family: Karla, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.home-fur {
+    color: inherit;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: karla, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    word-break: break-word;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #292929;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: karla, sans-serif;
+    line-height: 1.6;
+    word-break: break-word;
+}
+.section8 {
+    margin-top: 100px;
+}
+.section8-h1 h1{
+    font-family: "Avenir Next", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #292929;
+    text-transform: uppercase;
+    text-align: center;
+}
+#blog {
+    margin-bottom: 50px;
+}
+#test {
+    margin-top: 50px;
+}
+#none {
+    margin-top: 0;
+}
+a {
+    color: inherit;
+    display: block;
+    padding: 0px 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10px;
+    word-break: break-word;
+    letter-spacing: 0.8px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.section10-all ul {
+overflow: hidden;
+background-color: white;
+}
+.section10-all ul li{
+    list-style: none;
+}
+.section10 {
+    margin-top: 50px;
+}
+
+.section11 {
+    margin-top: 50px;
+}
+
+.section9-fa a {
+    float: right;
+    display: block;
+}
+
+.section9-sub {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btnemail {
+    width: 50;
+    font-size: 12px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.btnsub {
+    font-family: Karla, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 11px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    color: white;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #292929;
+}
+button, html [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+button {
+    border-radius: 0;
+}
+.fa {
+    padding: 15px;
+    font-size: 50px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+.fa-facebook {
+    background-color: #292929;
+    color: #ffffff;
+}
+.fa-twitter {
+    color: #292929;
+}
+.fa-instagram {
+    color: #292929;
+}
+.fa-youtube {
+    color: #292929;
+}
+.fa-pinterest {
+    color: #292929;
+}
+.fa-E-mail {
+    color: #292929;
+}
+.section12 {
+    margin-top: 50px;
+}
+
+.section12-div {
+    margin-top: 15px;
+    margin-bottom: 30%;
+}
+@media(max-width: 320){
+    .section7-write {
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+    }
+}
